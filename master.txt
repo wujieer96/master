@@ -2,4 +2,4 @@ while dummy:
             dummynext=dummy.next
             copynode=RandomListNode(dummy.label)
             copynode.next=dummynext
-            dummy.next=copynode
+            dummy.next=copy
