@@ -3,4 +3,3 @@ while dummy:
             copynode=RandomListNode(dummy.label)
             copynode.next=dummynext
             dummy.next=copynode
-            dummy=dummynext
