@@ -1,0 +1,10 @@
+while dummy:
+            copynode=dummy.next
+            dummynext=copynode.next
+            dummy.next=dummynext
+            if dummynext:
+                copynode.next=dummynext.next
+            else:
+                copynode.next=None
+            dummy=dummynext
+        return copyHead
